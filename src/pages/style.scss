@@ -1,0 +1,116 @@
+// @import "../assets/css/index.scss";
+$jost: "Jost";
+@font-face {
+  font-family: $jost;
+  src: url("../assets/fonts/Jost/Jost-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+body {
+  margin: 0;
+  font-family: $jost;
+  font-style: normal;
+}
+// global css
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-wrapper {
+  .page-container {
+    max-width: 1442px;
+    padding: 0 70px;
+    margin: 0 auto;
+    .contact-block-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 7px 0;
+      .company-brand-content {
+        display: flex;
+        align-items: flex-end;
+        p {
+          font-family: $jost;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 17px;
+          margin-bottom: 12px;
+          margin-left: 5px;
+        }
+      }
+      .company-contact-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .contact-support-address:last-child {
+          border: none;
+        }
+        .contact-support-address {
+          padding: 0 20px;
+          text-align: center;
+          border-right: 1px solid #000000;
+
+          h4 {
+            font-family: "jost";
+            font-size: 16px;
+            line-height: 23px;
+            font-weight: 700;
+            color: #000000;
+          }
+          p {
+            font-family: "Jost";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+  .header-menu {
+    background-color: #5f2dee;
+    .menu-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      ul {
+        display: flex;
+        align-items: center;
+        margin-left: 220px;
+        li {
+          list-style: none;
+          margin-right: 60px;
+          a {
+            font-family: $jost;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 23px;
+            color: #ffffff;
+            text-decoration: none;
+          }
+        }
+      }
+      .social-links {
+        margin-right: 60px;
+        margin-top: 6px;
+        img {
+          margin-right: 6px;
+        }
+      }
+    }
+  }
+}
