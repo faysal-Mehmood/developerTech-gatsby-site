@@ -5,7 +5,10 @@ import Itservices from "./it-services";
 import Learnmore from "./learnmore";
 import Projectsection from "./project-section";
 import Videosection from "./videosection";
+import Newarticle from "./newarticle";
+import Footerlearn from "./footerlearn";
 import Team from "./team";
+import Footer from "./footer";
 import "./style.scss";
 const Index = () => {
   return (
@@ -17,6 +20,9 @@ const Index = () => {
       <Projectsection />
       <Team />
       <Videosection />
+      <Newarticle />
+      <Footerlearn />
+      <Footer />
     </>
   );
 };

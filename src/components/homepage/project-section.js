@@ -1,13 +1,26 @@
 import React from "react";
 import Heading from "../../utils/Heading";
 import Paragraph from "../../utils/Paragraph";
+import line from "../../assets/images/line.png";
 import PrimaryButton from "../../utils/primarybutton";
 const Projectsection = () => {
   return (
     <div className=" project-section">
       <div className=" page-container text-services  project-section2">
         <div className="text-services-1">
-          <Paragraph text="What We’re Offering" color="#7100FF" size="18px" />
+          <div className="line-head">
+            <div className="line-first">
+              <img src={line} alt="hwlll" className="" />
+            </div>
+            <div className="line-text">
+              <Paragraph
+                text="Our Compelete projects"
+                color="#7100FF"
+                size="18px"
+              />
+            </div>
+          </div>
+
           <Heading
             title={`Improve & Enhance Our 
             Tech Projects`}

@@ -5,6 +5,7 @@ import productdev from "../../assets/images/productdev.png";
 import digitalmarket from "../../assets/images/digitalmarket.png";
 import systemsecurity2 from "../../assets/images/systemsecurity2.png";
 import systemsecurity from "../../assets/images/systemsecurity.png";
+import line from "../../assets/images/line.png";
 import dataanalysis from "../../assets/images/dataanalysis.png";
 const Itservices = () => {
   return (
@@ -57,11 +58,19 @@ const Itservices = () => {
         <div className="page-container services-cont">
           <div className="text-services">
             <div className="text-services-1">
-              <Paragraph
-                text="What We’re Offering"
-                color="#7100FF"
-                size="18px"
-              />
+              <div className="line-head">
+                <div className="line-first">
+                  <img src={line} alt="hwlll" className="" />
+                </div>
+                <div className="line-text">
+                  <Paragraph
+                    text="What We’re Offering"
+                    color="#7100FF"
+                    size="18px"
+                  />
+                </div>
+              </div>
+
               <Heading
                 title={`Dealing in all Professional IT Services`}
                 className="services-heading"

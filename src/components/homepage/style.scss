@@ -233,6 +233,13 @@ line-height: 52px;
 color: #FFFFFF;
 
 }
+.services-heading5{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 52px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  }
 .services-heading2{
   width: 458px !important;
   height: 104px !important;
@@ -551,3 +558,230 @@ gap: 10px;
 padding-top: 4px;
 margin-bottom: 10px;
 }
+.newarticle-section{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+padding-top: 76px !important;
+padding-bottom: 280px !important;
+gap: 30px;
+}
+.article-text{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;  
+align-items: center;
+}
+  .article-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+
+.block-new-1{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../../assets//images/data.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 460px;
+height: 277px;
+align-items: center;
+justify-content: center;
+}
+
+.block-new-2{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../../assets//images/quicksolution.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 460px;
+height: 277px;
+align-items: center;
+justify-content: center;
+}
+.block-new-3{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../../assets//images/augment.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 460px;
+height: 277px;
+align-items: center;
+justify-content: center;
+
+}
+
+.blocks-text-new{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 400px;
+background-color: #FFFFFF;
+margin-top: 250px;
+padding-left: 21px;
+ padding-top: 17px;
+ padding-bottom: 22px;
+box-shadow: 3px 10px 4px rgba(0, 0, 0, 0.25);
+gap: 20px;
+}
+.block-new-head{
+  width: 253px;
+  height: 70px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+  }
+  
+  .block-new-head2{
+  
+    width: 164px;
+    height: 70px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;}
+    .new-card-heading{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 0px;
+    }
+    .new-card-heading-pic-image{
+      width: 20.5px;
+      height: 20px;
+    }
+    .new-card-heading-admin-text{
+      margin-right: 15px;
+    }
+
+    .footer-learn{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+      background-image: url("../../assets/images/footerlearn.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      max-width: 100%;
+      justify-content: space-between;
+      padding-left: 135px ;
+      padding-right: 204px;
+      padding-top: 67px;
+      padding-bottom: 66px ;
+    }
+    .footer-learn-head{
+margin-top: 16.5px;
+    }
+    .footer-section{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-image: url("../../assets/images/footerback.png");
+background-repeat: no-repeat;
+background-size: cover;
+padding-left: 68px;
+padding-top: 56px;
+padding-bottom: 35px;
+justify-content: space-between;
+    }
+
+  .footer-section-1{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 20px;
+  }
+  .footer-1-text{
+max-width: 226px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 23px;
+  }
+  .footer-section-1-text-social{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 8px;
+  }
+  .footer-section-2-heading{
+width: 79px;
+height: 49px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 49px;
+
+color: #FFFFFF;
+  }
+  .sectio-2-links{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 10px;
+padding-top: 20px;
+  }
+
+  .footer-section-2-links{
+    width: 108px;
+    height: 23px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+
+  .footer-section-4-heading{
+    width: 117px;
+    height: 49px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+      }
+      .footer-section-4-contacts{
+        width: 185px;
+        height: 46px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 23px;
+        color: #FFFFFF; 
+      }
+      .contact-number{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2px;
+      }
+      .contact-comp{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 20px;
+      }
