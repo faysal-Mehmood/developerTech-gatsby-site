@@ -24,7 +24,7 @@ const Innovation = () => {
             <div className="top-bt-line"></div>
             <Paragraph text="About Your Company" color="#7100FF" size="14px" />
           </div>
-          <Heading title={`We're Partner of Your Innovations`} className="partner-heading" />
+          <Heading title={`We're Partner of Your Innovations`}  className="partner-heading" />
           <Paragraph
             text="Infetech is a provider of IT consulting and software development services. We have
             helped organizations and companies improve business performance & enhance their
