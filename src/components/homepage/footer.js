@@ -12,7 +12,7 @@ import call from "../../assets/images/call.png";
 
 const Footer = () => {
   return (
-    <div className="footer-section ">
+    <div className="page-container footer-section ">
       <div className="footer-section-1">
         <div className="footer-section-1-logo">
           <img src={logofooter} alt="hwlll" className="" />
@@ -45,7 +45,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       <div className="footer-section-2">
         <Heading title={`Link`} className="footer-section-2-heading" />
         <div className="sectio-2-links">
@@ -83,7 +82,33 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-section-3"></div>
+      <div className="footer-section-3">
+        <Heading title={`News Letter`} className="footer-section-3-heading" />
+        <div className="footer-sec-3-1-details">
+          <div className="footer-sec-3-1">
+            <Heading
+              title={`Signup for our latest news & articles. We won’t give you spam mails.`}
+              className="footer-section-3-text"
+            />
+          </div>
+          <div className="footer-sec-3-2">
+            <div className="text-input">
+              <div class="input-text">
+                <input type="text" placeholder="text" name="mail" required />
+              </div>
+              <div className="send-button"></div>
+            </div>
+          </div>
+          <div className="footer-sec-3-3">
+            <Heading
+              title={`I agree to all terms and policies of the
+          Company
+          `}
+              className="footer-section-3-text"
+            />
+          </div>
+        </div>
+      </div>
       <div className="footer-section-4">
         <Heading title={`Contact`} className="footer-section-4-heading" />
         <div className="contact-comp">

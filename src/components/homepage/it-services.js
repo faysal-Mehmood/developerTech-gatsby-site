@@ -54,8 +54,8 @@ const Itservices = () => {
           </div>
         </div>
       </div>
-      <div className="services-back">
-        <div className="page-container services-cont">
+      <div className="page-container services-back">
+        <div className=" services-cont">
           <div className="text-services">
             <div className="text-services-1">
               <div className="line-head">

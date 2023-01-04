@@ -5,8 +5,8 @@ import line from "../../assets/images/line.png";
 import PrimaryButton from "../../utils/primarybutton";
 const Projectsection = () => {
   return (
-    <div className=" project-section">
-      <div className=" page-container text-services  project-section2">
+    <div className=" page-container project-section">
+      <div className="  text-services project-section2">
         <div className="text-services-1">
           <div className="line-head">
             <div className="line-first">

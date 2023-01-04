@@ -4,8 +4,8 @@ import Paragraph from "../../utils/Paragraph";
 import PrimaryButton from "../../utils/primarybutton";
 const Footerlearn = () => {
   return (
-    <div className="footer-learn">
-      <div className="footer-learn-1">
+    <div className="page-container footer-learn">
+      <div className=" footer-learn-1">
         <Paragraph
           text="We’re here to help to grow your business."
           color="white"
