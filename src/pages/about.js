@@ -1,13 +1,11 @@
 import React from "react";
 import Navbar from "../components/layout/navbar";
-
+import AboutPage from "../components/aboutpage";
 const About = () => {
   return (
     <Navbar>
-      <h2>about page</h2>
-      <p>about page here</p>
+      <AboutPage />
     </Navbar>
   );
 };
-export const Head = () => <title>about page</title>;
 export default About;

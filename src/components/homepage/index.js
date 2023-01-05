@@ -6,9 +6,9 @@ import Learnmore from "./learnmore";
 import Projectsection from "./project-section";
 import Videosection from "./videosection";
 import Newarticle from "./newarticle";
-import Footerlearn from "./footerlearn";
-import Team from "./team";
-import Footer from "./footer";
+import Footerlearn from "../../utils/footerlearn";
+import Team from "../../utils/team";
+import Footer from "../../utils/footer";
 import "./style.scss";
 const Index = () => {
   return (

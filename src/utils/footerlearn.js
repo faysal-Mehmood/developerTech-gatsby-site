@@ -1,7 +1,7 @@
 import React from "react";
-import Heading from "../../utils/Heading";
-import Paragraph from "../../utils/Paragraph";
-import PrimaryButton from "../../utils/primarybutton";
+import Heading from "./Heading";
+import Paragraph from "./Paragraph";
+import PrimaryButton from "./primarybutton";
 const Footerlearn = () => {
   return (
     <div className="page-container footer-learn">

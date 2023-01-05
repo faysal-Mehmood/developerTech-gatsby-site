@@ -1,14 +1,14 @@
 import React from "react";
-import Heading from "../../utils/Heading";
-import Paragraph from "../../utils/Paragraph";
-import logofooter from "../../assets/images/logofooter.png";
-import twitter from "../../assets/images/twitter.png";
-import printre from "../../assets/images/printre.png";
-import facebook from "../../assets/images/facebook.png";
-import insta from "../../assets/images/insta.png";
-import mail from "../../assets/images/mail.png";
-import location from "../../assets/images/location.png";
-import call from "../../assets/images/call.png";
+import Heading from "./Heading";
+import Paragraph from "./Paragraph";
+import logofooter from "../../src/assets/images/logofooter.png";
+import twitter from "../../src/assets/images/twitter.png";
+import printre from "../../src/assets/images/printre.png";
+import facebook from "../../src/assets/images/facebook.png";
+import insta from "../../src/assets/images/insta.png";
+import mail from "../../src/assets/images/mail.png";
+import location from "../../src/assets/images/location.png";
+import call from "../../src/assets/images/call.png";
 
 const Footer = () => {
   return (

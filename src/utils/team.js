@@ -1,11 +1,11 @@
 import React from "react";
-import Heading from "../../utils/Heading";
-import Paragraph from "../../utils/Paragraph";
-import eve from "../../assets/images/eve.png";
-import line from "../../assets/images/line.png";
-import hardson from "../../assets/images/hardson.png";
-import brown from "../../assets/images/brown.png";
-import sharebutton from "../../assets/images/sharebutton.png";
+import Heading from "./Heading";
+import Paragraph from "./Paragraph";
+import eve from "../../src/assets/images/eve.png";
+import line from "../../src/assets/images/line.png";
+import hardson from "../../src/assets/images/hardson.png";
+import brown from "../../src/assets/images/brown.png";
+import sharebutton from "../../src/assets/images/sharebutton.png";
 const Team = () => {
   return (
     <div className="page-container team-section">

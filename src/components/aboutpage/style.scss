@@ -1,0 +1,280 @@
+*{margin: 0;
+    box-sizing: border-box;}
+    .Aboutback{
+        display: flex;
+        background-image: url("../../assets/images/aboutbackground.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+    }
+.About-Text{
+    width: 196px;
+height: 81px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 81px;
+color: #FBFBFB;
+padding-top: 132px;
+padding-bottom: 263px;
+}
+.testimonal-section{
+    background-image: url("../../assets/images/talking-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial-heading{
+    width: 364px;
+    height: 52px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;    
+    color: #000000;
+    
+}
+.testimonial-text{
+    width: 116px;
+height: 20px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #7100FF;
+}
+.testimonal-text-block{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.testimonal-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 110px;
+    padding-bottom: 81px;
+justify-content: space-around;
+}
+
+.card-alesha{
+    display: flex;
+    flex-direction: column;
+background-image: url("../../assets/images/aleesha-bacground.png");
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+.testimonial-card-text{
+margin: 79px 68px 79px 67px;
+width: 370px;
+height: 138px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+
+}
+.aleesha-pic{
+    background-image: url("../../assets/images/Aleesha.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 329px;
+    height: 106px;
+    margin-top: -70px;
+    margin-left: -20px;
+  padding-left: 121px;
+padding-top: 15px;
+}
+.aleesha-head{
+    width: 195px;
+height: 35px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+color: #000000;
+text-align: left !important;
+
+}
+.aleesha-text-head{
+
+    width: 119px;
+    height: 20px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9747FF;    
+    text-align: left !important;
+}
+.mike-pic{
+    background-image: url("../../assets/images/mike.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 329px;
+    height: 106px;
+    margin-top: -70px;
+    margin-left: -20px;
+  padding-left: 121px;
+padding-top: 15px;
+}
+.innovation{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 76px 90px 68px 70px !important;
+}
+.innovation-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 110px;
+}
+.innovation-pic{
+    max-width: 100%;
+}
+.innovation-details{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.purple-head{
+    width: 127px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #7100FF;
+padding-top:  3px !important;
+}
+.black-head{
+    width: 364px;
+    height: 104px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    color: #000000;
+}
+.black-text{
+    width: 540px;
+height: 69px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #000000;
+
+}
+.innovation-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding-bottom: 58px;
+}
+.innovation-list-col-1{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 20px;
+}
+.list-head-1{
+    width: 174px;
+    height: 29px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;    
+    color: #000000;
+    
+}
+.list-head-2{
+    width: 202px;
+    height: 29px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;    
+    color: #000000;
+    
+}
+.tick-head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    }
+
+    .tick-first{
+        padding-top: 4px;
+    }
+    .line-head{
+        padding-bottom: 20px;
+    }
+    .innovation-details-head{
+        padding-bottom: 20px;
+    }
+    .innovation-details-text{
+        padding-bottom: 40px;
+    }
+    .innovation-numbers{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 80px;
+    }
+    .num-head{
+        width: 84px;
+        height: 64px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 64px;
+        text-align: center;        
+        color: #000000;
+          
+    }
+    .plus-num{
+        margin-bottom: -25px;
+justify-content: right;
+justify-content: right;
+margin-left: 80px !important;
+    }
+    .innovation-numbers-card-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .para-num{
+        font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+
+color: #9747FF;
+
+    }
