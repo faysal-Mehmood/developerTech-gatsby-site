@@ -13,11 +13,14 @@ import "./style.scss";
 const Index = () => {
   return (
     <>
-      <HeroSection />
-      <Innovation />
+      {/* <HeroSection />
+      <Innovation /> 
+ */}
       <Itservices />
+
       <Learnmore />
       <Projectsection />
+
       <Team />
       <Videosection />
       <Newarticle />

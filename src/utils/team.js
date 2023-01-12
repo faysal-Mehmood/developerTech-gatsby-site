@@ -39,7 +39,7 @@ const Team = () => {
       <div className="team-cards">
         <div className="team-card-detail">
           <div className="member-pic">
-            <img src={eve} alt="hwlll" className="" />
+            <img src={eve} alt="hwlll" className="res-seize" />
           </div>
           <div className="memberdetail">
             <div className="name-member">
@@ -59,7 +59,7 @@ const Team = () => {
 
         <div className="team-card-detail">
           <div className="member-pic">
-            <img src={hardson} alt="hwlll" className="" />
+            <img src={hardson} alt="hwlll" className="res-seize" />
           </div>
           <div className="memberdetail">
             <div className="name-member">
@@ -79,7 +79,7 @@ const Team = () => {
 
         <div className="team-card-detail">
           <div className="member-pic">
-            <img src={brown} alt="hwlll" className="" />
+            <img src={brown} alt="hwlll" className="res-seize" />
           </div>
           <div className="memberdetail">
             <div className="name-member">

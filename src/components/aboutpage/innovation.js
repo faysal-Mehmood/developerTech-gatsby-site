@@ -11,7 +11,7 @@ const Innovation = () => {
     <div className="page-container innovation">
       <div className="innovation-cards">
         <div className="innovation-pic">
-          <img src={innovation}></img>
+          <img src={innovation} className="inno-size"></img>
         </div>
         <div className="innovation-details">
           <div className="line-head">

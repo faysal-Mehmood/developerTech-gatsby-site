@@ -2,8 +2,8 @@ import React from "react";
 import CompanyLogo from "../../assets/images/logo.svg";
 const Header = () => {
   return (
-    <div className="contact-block-container">
-      <div className="company-brand-content">
+    <div className=" contact-block-container">
+      {/* <div className="company-brand-content">
         <div className="org-brand-logo">
           <img src={CompanyLogo} alt="developer tech brand" />
         </div>
@@ -22,7 +22,7 @@ const Header = () => {
           <h4>Office Address</h4>
           <p>259 HGS, Hotland, USA</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

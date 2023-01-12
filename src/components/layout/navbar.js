@@ -6,12 +6,12 @@ import twitterIcon from "../../assets/icons/Group.svg";
 import pinterestIcon from "../../assets/icons/Group (1).svg";
 const Navbar = ({ children }) => {
   return (
-    <div className="page-wrapper">
+    <div className="page-container page-wrapper">
       {/* <h3>menu will be here</h3>
       <Link to="/">home</Link>
       <Link to="/about">about</Link>
       <Link to="/blogs">blogs</Link> */}
-      <div className="page-container">
+      {/* <div className="page-container">
         <Header />
       </div>
       <div className="header-menu">
@@ -42,7 +42,7 @@ const Navbar = ({ children }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {children}
     </div>
   );
