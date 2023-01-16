@@ -1,12 +1,12 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Seo from "../components/seo/seo";
-import Navbar from "../components/layout/navbar";
+import Layout from "../components/layout";
 const Blogs = ({ data }) => {
   console.log("data", data);
   return (
     <>
-      <Navbar>
+      <Layout>
         <h2>My blogs</h2>
         {data?.allMdx.nodes.map((blog, key) => {
           return (
@@ -17,7 +17,7 @@ const Blogs = ({ data }) => {
             </>
           );
         })}
-      </Navbar>
+      </Layout>
     </>
   );
 };

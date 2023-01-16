@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../components/layout/navbar";
+import Layout from "../components/layout/index";
 import AboutPage from "../components/aboutpage";
 const About = () => {
   return (
-    <Navbar>
+    <Layout>
       <AboutPage />
-    </Navbar>
+    </Layout>
   );
 };
 export default About;

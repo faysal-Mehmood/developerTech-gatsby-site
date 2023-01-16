@@ -1,14 +1,14 @@
 import React from "react";
-import Heading from "./Heading";
-import Paragraph from "./Paragraph";
-import logofooter from "../../src/assets/images/logofooter.png";
-import twitter from "../../src/assets/images/twitter.png";
-import printre from "../../src/assets/images/printre.png";
-import facebook from "../../src/assets/images/facebook.png";
-import insta from "../../src/assets/images/insta.png";
-import mail from "../../src/assets/images/mail.png";
-import location from "../../src/assets/images/location.png";
-import call from "../../src/assets/images/call.png";
+import Heading from "../../utils/Heading";
+import Paragraph from "../../utils/Paragraph";
+import logofooter from "../../../src/assets/images/logofooter.png";
+import twitter from "../../../src/assets/images/twitter.png";
+import printre from "../../../src/assets/images/printre.png";
+import facebook from "../../../src/assets/images/facebook.png";
+import insta from "../../../src/assets/images/insta.png";
+import mail from "../../../src/assets/images/mail.png";
+import location from "../../../src/assets/images/location.png";
+import call from "../../../src/assets/images/call.png";
 
 const Footer = () => {
   return (
@@ -53,24 +53,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <Heading
-              title={`Meet our Team`}
-              className="footer-section-2-links"
-            />
+            <Heading title={`Meet our Team`} className="footer-section-2-links" />
           </div>
 
           <div>
-            <Heading
-              title={`News & Media`}
-              className="footer-section-2-links"
-            />
+            <Heading title={`News & Media`} className="footer-section-2-links" />
           </div>
 
           <div>
-            <Heading
-              title={`Our Projects`}
-              className="footer-section-2-links"
-            />
+            <Heading title={`Our Projects`} className="footer-section-2-links" />
           </div>
 
           <div>
@@ -117,10 +108,7 @@ const Footer = () => {
               <img src={call} alt="hwlll" className="" />
             </div>
             <div>
-              <Heading
-                title={`+88(9800)6802`}
-                className="footer-section-4-contacts"
-              />
+              <Heading title={`+88(9800)6802`} className="footer-section-4-contacts" />
             </div>
           </div>
           <div className="contact-number">
@@ -128,10 +116,7 @@ const Footer = () => {
               <img src={mail} alt="hwlll" className="" />
             </div>
             <div>
-              <Heading
-                title={`needhelp@company.com`}
-                className="footer-section-4-contacts"
-              />
+              <Heading title={`needhelp@company.com`} className="footer-section-4-contacts" />
             </div>
           </div>
 

@@ -1,17 +1,15 @@
 import { Link } from "gatsby";
 import React from "react";
 import Header from "./header";
+import Footerlearn from "./footerlearn";
+import Footer from "./footer";
 import fbIcon from "../../assets/icons/Group 77.svg";
 import twitterIcon from "../../assets/icons/Group.svg";
 import pinterestIcon from "../../assets/icons/Group (1).svg";
-const Navbar = ({ children }) => {
+const Layout = ({ children }) => {
   return (
-    <div className="page-container page-wrapper">
-      {/* <h3>menu will be here</h3>
-      <Link to="/">home</Link>
-      <Link to="/about">about</Link>
-      <Link to="/blogs">blogs</Link> */}
-      {/* <div className="page-container">
+    <div className="page-wrapper">
+      <div className="page-container">
         <Header />
       </div>
       <div className="header-menu">
@@ -42,10 +40,12 @@ const Navbar = ({ children }) => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {children}
+      <Footerlearn />
+      <Footer />
     </div>
   );
 };
 
-export default Navbar;
+export default Layout;
