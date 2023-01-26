@@ -176,9 +176,6 @@
   flex-wrap: wrap;
   gap: 21px;
   padding-top: 76px !important;
-  padding-left: 15px !important;
-  padding-right: 15px !important;
-  max-width: 100% !important;
 }
 .block-1 {
   display: flex;
@@ -293,7 +290,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 100% !important;
   gap: 89px;
 }
 .text-services {
@@ -482,8 +478,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
   gap: 76px;
   padding-top: 76px !important;
   padding-bottom: 76px !important;
@@ -523,8 +517,6 @@
   flex-wrap: wrap;
   padding-top: 253px !important;
   padding-bottom: 118px !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
   justify-content: space-between;
 }
 .para {
@@ -572,8 +564,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
   padding-top: 76px !important;
   padding-bottom: 100px !important;
   gap: 30px;
@@ -591,8 +581,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
+  justify-content: space-between;
 }
 
 .block-new-1 {
@@ -679,31 +668,31 @@
 .new-card-heading-admin-text {
   margin-right: 15px;
 }
-
+.footer-learn-backclip{
+  background-image: url("../../assets/images/footerlearn.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .footer-learn {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url("../../assets/images/footerlearn.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100%;
   justify-content: space-between;
-  padding-left: 150px !important;
-  padding-right: 100px !important;
   padding-top: 67px !important;
   padding-bottom: 66px !important;
 }
 .footer-learn-head {
   margin-top: 16.5px;
 }
+.footer-backclip-sec{
+  background-image: url("../../assets/images/footerback.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .footer-section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url("../../assets/images/footerback.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-left: 68px;
   padding-top: 56px !important;
   padding-bottom: 35px !important;

@@ -5,16 +5,11 @@ import playbutton from "../../assets/images/playbutton.png";
 
 const Videosection = () => {
   return (
-    <div className="page-container video-section">
+    <div className="video-section">
       <div className="page-container video-section-details">
         <div className="video-text">
           <img src={playbutton} alt="hwlll" className="" />
-          <Paragraph
-            text="Do You Need a Meeting?"
-            color="white"
-            size="14px"
-            className={"para"}
-          />
+          <Paragraph text="Do You Need a Meeting?" color="white" size="14px" className={"para"} />
           <Heading
             title={`Save Time and Money
             with a Top IT Solution

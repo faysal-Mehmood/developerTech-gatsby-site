@@ -14,54 +14,30 @@ const Itservices = () => {
         <div className="block-height">
           <div className="block-1">
             <div className="blocks-text">
-              <Heading
-                title={`Tech Solutions`}
-                size="24px"
-                className={"lineheight"}
-              />
-              <Heading
-                title={`Design/Ideas`}
-                size="18px"
-                className={"lineheight"}
-              />
+              <Heading title={`Tech Solutions`} size="24px" className={"lineheight"} />
+              <Heading title={`Design/Ideas`} size="18px" className={"lineheight"} />
             </div>
           </div>
         </div>
         <div className="block-height">
           <div className="block-2">
             <div className="blocks-text">
-              <Heading
-                title={`Plateform Intigration`}
-                size="24px"
-                className={"lineheight"}
-              />
-              <Heading
-                title={`Design/Ideas`}
-                size="18px"
-                className={"lineheight"}
-              />
+              <Heading title={`Plateform Intigration`} size="24px" className={"lineheight"} />
+              <Heading title={`Design/Ideas`} size="18px" className={"lineheight"} />
             </div>
           </div>
         </div>
         <div className="block-height">
           <div className="block-3">
             <div className="blocks-text">
-              <Heading
-                title={`Virtual Reality`}
-                size="24px"
-                className={"lineheight"}
-              />
-              <Heading
-                title={`Design/Ideas`}
-                size="18px"
-                className={"lineheight"}
-              />
+              <Heading title={`Virtual Reality`} size="24px" className={"lineheight"} />
+              <Heading title={`Design/Ideas`} size="18px" className={"lineheight"} />
             </div>
           </div>
         </div>
       </div>
-      <div className="page-container services-back">
-        <div className=" services-cont">
+      <div className=" services-back">
+        <div className="page-container services-cont">
           <div className="text-services">
             <div className="text-services-1">
               <div className="line-head">
@@ -69,11 +45,7 @@ const Itservices = () => {
                   <img src={line} alt="hwlll" className="" />
                 </div>
                 <div className="line-text">
-                  <Paragraph
-                    text="What We’re Offering"
-                    color="#7100FF"
-                    size="18px"
-                  />
+                  <Paragraph text="What We’re Offering" color="#7100FF" size="18px" />
                 </div>
               </div>
 
@@ -95,10 +67,7 @@ scalable solutions."
             <div className="detail-height">
               <div className="detail-1">
                 <img src={productdev} alt="hwlll" className="picloc" />
-                <Heading
-                  title={`Product Development`}
-                  className="details-heading"
-                />
+                <Heading title={`Product Development`} className="details-heading" />
                 <Paragraph
                   className={"detail-description"}
                   text="Providing the best IT 
@@ -112,10 +81,7 @@ scalable solutions."
             <div className="detail-height">
               <div className="detail-1">
                 <img src={digitalmarket} alt="hwlll2" className="picloc" />
-                <Heading
-                  title={`Digital Marketing`}
-                  className="details-heading"
-                />
+                <Heading title={`Digital Marketing`} className="details-heading" />
 
                 <Paragraph
                   className={"detail-description"}
@@ -130,10 +96,7 @@ scalable solutions."
             <div className="detail-height">
               <div className="detail-1">
                 <img src={systemsecurity} alt="hwlll2" className="picloc" />
-                <Heading
-                  title={`Security System`}
-                  className="details-heading"
-                />
+                <Heading title={`Security System`} className="details-heading" />
                 <Paragraph
                   className={"detail-description"}
                   text="Providing the best IT 
@@ -147,10 +110,7 @@ scalable solutions."
             <div className="detail-height">
               <div className="detail-1">
                 <img src={systemsecurity2} alt="hwlll2" className="picloc" />
-                <Heading
-                  title={`Security System`}
-                  className="details-heading"
-                />
+                <Heading title={`Security System`} className="details-heading" />
                 <Paragraph
                   className={"detail-description"}
                   text="Providing the best IT 
