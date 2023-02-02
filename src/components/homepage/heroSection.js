@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "@mui/material/Button";
 import box1 from "../../assets/images/Vector 264.svg";
 import box2 from "../../assets/images/Vector 263.svg";
 const HeroSection = () => {

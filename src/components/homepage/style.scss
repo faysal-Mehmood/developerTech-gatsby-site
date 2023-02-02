@@ -298,6 +298,7 @@
   flex-wrap: wrap;
   max-width: 100%;
   justify-content: space-between;
+  margin-bottom: 70px;
 }
 .text-services-1 ul li {
   list-style: none;
@@ -361,7 +362,17 @@
 
   color: #ffffff;
 }
+.slick-prev {
+  position: absolute;
+  left: 25px;
+  z-index: 1;
+}
 
+.slick-next {
+  position: absolute;
+  right: 25px;
+  z-index: 1;
+}
 .learn-section {
   display: flex;
   flex-direction: row;
@@ -427,6 +438,10 @@
 .project-section2 {
   padding-left: 55px !important;
   padding-right: 55px !important;
+}
+.project-list-items{
+  margin-bottom: 50px;
+  padding-left: 70px;
 }
 .project-cards {
   display: flex;
