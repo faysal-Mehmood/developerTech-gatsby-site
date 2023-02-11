@@ -6,7 +6,7 @@ import Learnmore from "./learnmore";
 import Projectsection from "./project-section";
 import Videosection from "./videosection";
 import Newarticle from "./newarticle";
-import Team from "../../utils/team";
+import ExpertTeam from "./expertTeam";
 import "./style.scss";
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
       <Itservices />
       <Learnmore />
       <Projectsection />
-      <Team />
+      <ExpertTeam />
       <Videosection />
       <Newarticle />
     </>

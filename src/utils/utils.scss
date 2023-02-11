@@ -22,3 +22,17 @@
   border: none;
   cursor: pointer;
 }
+// team card css
+.team-card-detail {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 400px;
+  gap: 20px;
+}
+.memberdetail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
