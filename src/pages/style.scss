@@ -87,7 +87,7 @@ body {
     background-color: #5f2dee;
     .navbar {
       background-color: #5f2dee !important;
-      .navbar-nav{
+      .navbar-nav {
         width: 100%;
       }
     }
@@ -116,6 +116,25 @@ body {
           margin-right: 6px;
         }
       }
+    }
+  }
+
+  //team page css
+  .team-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("../assets/images/team-hero.svg"), rgba(143, 141, 141, 0.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 606px;
+    .hero-sec-title {
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 81px;
+      color: #fbfbfb;
     }
   }
 }

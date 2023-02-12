@@ -1,8 +1,8 @@
-import { Link } from "gatsby";
+import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "gatsby";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import React from "react";
 import Header from "./header";
 import Footerlearn from "./footerlearn";
 import Footer from "./footer";
@@ -27,11 +27,21 @@ const Layout = ({ children }) => {
               <Nav className="me-auto">
                 <div className="menu-list">
                   <div className="menu-items">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">About</Nav.Link>
-                    <Nav.Link href="#home">Pages</Nav.Link>
-                    <Nav.Link href="#link">Services</Nav.Link>
-                    <Nav.Link href="#home">Contact</Nav.Link>
+                    <Nav.Link>
+                      <Link to="/">Home</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                      <Link to="/about">About</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                      <Link to="/our-team">Teams</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                      <Link to="#link">Services</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                      <Link>Contact</Link>
+                    </Nav.Link>
                     {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Home</NavDropdown.Item>
                   </NavDropdown> */}
