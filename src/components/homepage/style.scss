@@ -298,6 +298,7 @@
   flex-wrap: wrap;
   max-width: 100%;
   justify-content: space-between;
+  margin-bottom: 70px;
 }
 .text-services-1 ul li {
   list-style: none;
@@ -361,7 +362,17 @@
 
   color: #ffffff;
 }
+.slick-prev {
+  position: absolute;
+  left: 25px;
+  z-index: 1;
+}
 
+.slick-next {
+  position: absolute;
+  right: 25px;
+  z-index: 1;
+}
 .learn-section {
   display: flex;
   flex-direction: row;
@@ -428,6 +439,10 @@
   padding-left: 55px !important;
   padding-right: 55px !important;
 }
+.project-list-items{
+  margin-bottom: 50px;
+  padding-left: 70px;
+}
 .project-cards {
   display: flex;
   flex-direction: row;
@@ -489,19 +504,8 @@
   gap: 20px;
   justify-content: space-between;
 }
-.team-card-detail {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 400px;
-  gap: 20px;
-}
-.memberdetail {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
+
 
 .video-section {
   max-width: 100% !important;

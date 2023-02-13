@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "gatsby";
 import CompanyLogo from "../../assets/images/logo.svg";
 const Header = () => {
   return (
     <div className=" contact-block-container">
       <div className="company-brand-content">
         <div className="org-brand-logo">
-          <img src={CompanyLogo} alt="developer tech brand" />
+          <Link to="/">
+            <img src={CompanyLogo} alt="developer tech brand" />
+          </Link>
         </div>
         <p>Welcome to IT Solutions & Services WordPress Theme</p>
       </div>
