@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // width: 1440px;
+}
+.webDevelopment {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(../../assets/images/aboutBackgroundImage.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+    height: 381px;
+    h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 81px;
+        color: #FBFBFB;
+    }
+}
+.prjc-Detail-Sec {
+    // background-color: #f5f5f5;
+    padding: 76px 70px;
+    max-width: 1442px;
+    margin: auto;
+    .lptp-Img-Sect {
+        display: flex;
+        gap: 20px;
+        .lptp-Img img{
+            width: 970px;
+            height: 472px;
+        }
+        .client-Dtail-sect {
+            padding: 50px 40px 56.51px 40px;
+            background-color: #F2F4F9;
+            width: 310px;
+            height: 472px;
+            .clients {
+                border-bottom: 1px solid #B6B6B6;
+                h3 { 
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 26px; 
+                    color: #000000;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #9747FF !important;
+                    margin-bottom: 10px;
+                }
+            }
+            .value {
+                h3 { 
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 26px; 
+                    color: #000000;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #9747FF !important;
+                    margin-bottom: 40.15px;
+                }
+            }
+        .icons {
+            display: flex;
+            gap: 10.65px;
+        }
+        }
+    }
+    .prjc-Detail-text-Sec {
+        text-align: center;
+        .App-Heading {
+            margin-top: 44px;
+            margin-bottom: 28px;
+        }
+        .App-para {
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+        }
+        .App-chlng {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .about-cmpany {
+            margin-top: 20px;
+            .about-cmpany-dtail {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .previous-next-sect {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid #BFBBBB;
+        border-bottom: 1px solid #BFBBBB;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;     
+        }
+    }
+    .similar-proj-sec {
+        margin-top: 76px;
+        margin-bottom: 83px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        .similar-proj-dtail {
+            width: 361px;
+            .cmplte-proj {
+                display: flex;
+                justify-content: center;
+                gap: 12px;
+                .cmplte-proj-txt {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #7100FF;
+                }
+            }
+        }
+    }
+    .projectCards {
+        display: flex;
+        gap: 46.1px;
+    }
+} 

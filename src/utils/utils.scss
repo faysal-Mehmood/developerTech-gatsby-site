@@ -22,3 +22,32 @@
   border: none;
   cursor: pointer;
 }
+.cards {
+  .card-dtail {
+      position: relative;
+      .Vector{
+          position: absolute;
+          top: -20px;
+          right: -21.3px;
+      }
+      .cards-dtail {
+          position: absolute;
+          left: 16.18px;
+          bottom: 46px;
+          .cards-dtail-heading {
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 35px;
+              color: #FFFFFF;
+          }
+          .cards-dtail-para {
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 26px;
+              color: #9747FF;
+          }
+      } 
+  }
+  
+  
+}
