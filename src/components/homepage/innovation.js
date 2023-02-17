@@ -4,8 +4,8 @@ import Heading from "../../utils/Heading";
 import Paragraph from "../../utils/Paragraph";
 import PrimaryButton from "../../utils/primarybutton";
 import ITsolutionLogo from "../../assets/images/it_logo_home 1.svg";
-import maskgroup from "../../assets/images/Maskgroup.svg";
-import maskgroup1 from "../../assets/images/Maskgroup1.svg";
+import maskgroup from "../../assets/images/Group161.svg";
+import maskgroup1 from "../../assets/images/Group160.svg";
 import tickMark from "../../assets/icons/tickmark.svg";
 const Innovation = () => {
   return (

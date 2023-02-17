@@ -66,3 +66,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.pagination-sec {
+  margin: 93px auto 28px;
+  .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+    background-color: #9747FF;
+    color: #ffffff;
+  }
+}
