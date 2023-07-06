@@ -86,6 +86,11 @@
 
   color: #000000;
 }
+.page-container {
+  display: flex;
+  gap: 20px;
+
+}
 .aleesha-pic {
   background-image: url("../../assets/images/Aleesha.png");
   background-repeat: no-repeat;

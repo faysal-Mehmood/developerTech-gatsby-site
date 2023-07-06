@@ -1,0 +1,121 @@
+.hero  {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(../../assets/images/aboutBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 476px;
+    h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 81px;
+        color: #FBFBFB;
+    }
+}
+.christine-eve-info {
+    padding: 100px 70px 0px !important;
+    margin-bottom: 73px;
+    .christine-eve-sec{
+        display: flex;
+        gap: 130px;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 73px;
+        .christine-img img {
+            width: 530px;
+            height: 560px;
+        }
+        .christine-dtails {
+            .christ-dvlpr {
+                font-size: 20px;
+                line-height: 29px;
+                color: #7100FF;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .icons {
+                display: flex;
+                gap: 20px;
+            }
+            .christ-goal {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 35px;
+                color: #7100FF;
+                margin-top: 20px;
+                margin-bottom: 76px;
+            }
+            .christ-about {
+                font-size: 16px;
+                line-height: 23px;
+                margin-bottom: 32px;
+            }
+        }
+    }
+}
+.contact {
+    background-image: url("../../assets/images/slide.svg");
+    background-size: cover;
+    padding-bottom: 80px !important;
+    margin-bottom: 32px;
+    
+    // height: 787px;
+    .contact-title {
+        padding-top: 76px;
+        padding-bottom: 83px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        .contact-title-dtail {
+            width: 405px;
+            .contact-img {
+                display: flex;
+                justify-content: center;
+                gap: 12px;
+                .contact-txt {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #7100FF;
+                }
+            }
+        }
+    }
+    form {
+        text-align: center;
+        margin: auto;
+        width: 608px;
+        font-size: 24px;
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        input {
+            padding:22px 20px;
+            box-shadow: 3px 9px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 15px;
+            border: none;
+            width: 294px;
+        } 
+        
+        .write {
+            width: 100%;
+            margin-top: 14px;
+            height: 153px;
+            padding: 20px 20px 98px 20px;
+        }
+        .send {
+            background: #9747FF; 
+            height: 72px;
+            margin-top: 56px;
+            color: #ffffff;
+            width: 100%;
+            border-radius: 0;
+            box-shadow: none;
+            padding: 18px;
+        }
+    }
+}

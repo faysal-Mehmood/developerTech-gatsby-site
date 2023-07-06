@@ -4,6 +4,7 @@ import TeamMemberCard from "../utils/teamMemberCard";
 import eve from "../assets/images/eve.png";
 import hardson from "../assets/images/hardson.png";
 import brown from "../assets/images/brown.png";
+import PaginationCompo from "../utils/pagination";
 
 const OurTeam = () => {
   return (
@@ -43,6 +44,7 @@ const OurTeam = () => {
             teamMemberName="Jessica Brown"
             memberDesignation="Developer"
           />
+          <PaginationCompo/>
         </div>
       </div>
     </Layout>

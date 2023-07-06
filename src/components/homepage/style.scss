@@ -5,10 +5,10 @@
 }
 .hero-section {
   width: 100% !important;
-  background: url("../../assets/images/hero.svg");
+  background: url("../../assets/images/Group74.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 80%;
+  // opacity: 80%;
   text-align: center;
   height: 700px;
   display: flex;
@@ -32,7 +32,7 @@
       line-height: 81px;
       text-align: center;
       color: #ffffff;
-      margin-bottom: 46px;
+      margin-bottom: 42px;
     }
     button {
       background: #9747ff;
@@ -62,8 +62,10 @@
 
 .partner-of-innovation {
   display: flex;
-  align-items: flex-start;
+  gap: 83px;
+  // align-items: flex-start;
   margin-top: 76px;
+  padding: 76px 71px 76px 100px;
   .it-solution-busi {
     position: relative;
     width: 50%;
@@ -106,10 +108,11 @@
       align-items: center;
       max-width: 500px;
       justify-content: space-between;
-      margin-bottom: 16px;
+      margin-bottom: 12px;
       .web-development {
         display: flex;
-        // width: 26px;
+        align-items: center;
+        gap: 12px;
         .web-heading {
           font-weight: 700;
           font-size: 20px;
@@ -127,11 +130,18 @@
         width: 20px;
         border-bottom: 1px solid #7100ff;
         margin-right: 17px;
+        .para-text{
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          text-align: center;
+          color: #7100FF;
+        }
       }
     }
     .partner-heading {
       max-width: 364px;
-      margin-bottom: 12px;
+      margin-bottom: 20px;
     }
     .innovate-para {
       max-width: 580px;
@@ -377,7 +387,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 100%;
   padding-top: 114px;
   padding-bottom: 76px;
   padding-left: 136px;

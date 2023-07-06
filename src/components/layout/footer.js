@@ -85,7 +85,7 @@ const Footer = () => {
             </div>
             <div className="footer-sec-3-2">
               <div className="text-input">
-                <div class="input-text">
+                <div className="input-text">
                   <input type="text" placeholder="text" name="mail" required />
                 </div>
                 <div className="send-button"></div>
